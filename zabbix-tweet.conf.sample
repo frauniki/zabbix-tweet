@@ -1,0 +1,10 @@
+[zabbix]
+url = 
+username = 
+password = 
+
+[twitter-api]
+ck = 
+cs = 
+at = 
+ats = 

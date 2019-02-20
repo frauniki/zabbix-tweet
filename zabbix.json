@@ -1,0 +1,19 @@
+{
+    "targets": [
+        {
+            "graphid": "1033",
+            "host": "srx240.noc",
+            "name": "Firewall Sessions"
+        },
+        {
+            "graphid": "1067",
+            "host": "srx240.noc",
+            "name": "External Router Traffic"
+        },
+        {
+            "graphid": "984",
+            "host": "ex4200.noc",
+            "name": "Backbone Traffic"
+        }
+    ]
+}
