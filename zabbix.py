@@ -64,7 +64,7 @@ def upload_twitter(image):
 
 def send_tweet(target):
     date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    text = f"[Zabbix Information] <{date}> {target['host']}: {target['name']}"
+    text = f"[ザビエルのえちえちグラフ回覧板] <{date}> {target['host']}: {target['name']}"
     data = {"status": text, "media_ids": get_zabbix_graph(target['graphid'])}
     req = twitter.post(env.TWITTER_STATUSES, params=data)
     if req.status_code == 200:
